@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    padding: 1rem;
+}
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+#content {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    padding: 1rem;
+}
+.card {
+    background-color: #eee;
+    color: #333;
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: default;
+}
+.card:hover {
+    background-color: dodgerblue;
+    color: white;
+    transform: scale(1.01);
+    box-shadow: #ccc 2px 2px 1px;
+}
+#options {
+    display: flex;
+    justify-content: end;
+    padding: 1rem;
+}
+button {
+    padding: 0.25rem 0.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+
+}
+button:hover {
+    background-color: dodgerblue;
+    color: white;
+    transform: scale(1.01);
+    box-shadow: #ccc 2px 2px 1px;
+    border: dodgerblue 2px solid;
+}
+button:active {
+    background-color: #eee;
+    border: solid 2px #eee;
+    color: #333;
+    transform: scale(0.99);
+}
